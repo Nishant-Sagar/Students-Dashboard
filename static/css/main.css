@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(127, 167, 181);
   }
 main {
     font-family: Barlow, Quicksand, Rubik, sans-serif, serif, 'Times New Roman', Times, serif !important;
@@ -21,18 +21,18 @@ footer {
     display: none;
 }
 .navbar {
-    background-color: rgb(11, 224, 22) !important;
+    background-color: rgb(0,0,0) !important;
     /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) !important; */
 }
 
 .card {
-    box-shadow: 15px 15px 10px rgb(201, 18, 229);
+    box-shadow: 15px 15px 10px rgb(42, 32, 44);
 
 }
 
 
 .card-header:hover {
-    background: rgb(194, 10, 236) !important;
+    background: rgb(58, 37, 58) !important;
     color: whitesmoke !important;
     transition: 0.1s ease-in;
 }
