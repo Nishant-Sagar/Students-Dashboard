@@ -18,7 +18,7 @@ jobs:
         username: ${{ secrets.DROPLET_USER }}
         #password: 1@Nishant
         password: ${{ secrets.PASSWORD }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        #key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           cd /var/www/
           mkdir -p backups
@@ -40,7 +40,7 @@ jobs:
         username: ${{ secrets.DROPLET_USER }}
         #password: 1@Nishant
         password: ${{ secrets.PASSWORD }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        #key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           cd /var/www/project 
           python3 -m venv env
